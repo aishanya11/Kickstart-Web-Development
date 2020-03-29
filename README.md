@@ -12,4 +12,4 @@ https://loader-aishanya.netlify.com/
 <br>
 https://loader-aishanya.netlify.com/
 <br>
-There are other mini projects in the Repo like sign up, responsive layouts, etc.
+<h3> There are other mini projects in the Repo like sign up, responsive layouts, etc.</h3>
