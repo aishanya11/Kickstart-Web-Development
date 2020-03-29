@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>MyVeryFirstLoader</title>
+  <style>
+  body{margin:0px;}
+    .container{
+      background-color: black;
+      width: 2000px;
+    height: 1000px;
+    overflow: hidden;
+
+
+
+    }
+    .loader1{
+
+      border-width: 6px;
+      width: 30px;
+      height: 30px;
+      margin-left: 19px;
+      margin-top: 19px;
+      border-style: solid;
+      border-right-color: white;
+      border-top-color:white;
+      border-left-color: transparent;
+      border-bottom-color: transparent;
+      border-radius: 50%;
+      animation-name: spring1;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      box-sizing: border-box;
+      transform:rotate(0deg);
+      transition-timing-function: ease-in-out;
+
+    }
+  @keyframes spring1 {
+    0% {
+  border-right-color: green;
+  border-top-color: blue;}
+  25% {
+  border-right-color: magenta;
+  border-bottom-color: red;
+  border-top-color: transparent;}
+  50% {
+   transform: rotate(-300deg);
+
+   border-right-color: red;
+   border-top-color: purple;
+  }
+  75% {
+  border-bottom-color: #ffa500;
+  border-right-color: red;}
+  100% {
+  border-right-color: magenta;
+  border-top-color: #ffa500;
+  border-bottom-color:#B0FC23;}
+}
+  .loader2{
+
+
+    width: 80px;
+    height: 80px;
+    margin-left: 23px;
+    margin-top: 23px;
+    border-width: 7px;
+    border-style: solid;
+    border-right-color: white;
+    border-top-color:white;
+    border-left-color: transparent;
+    border-bottom-color:  transparent;
+    border-radius: 50%;
+    animation-name: spring2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    box-sizing: border-box;
+    transform:rotate(0deg);
+    transition-timing-function: ease-in-out;
+
+  }
+@keyframes spring2{
+  0% {
+border-right-color: green;
+border-top-color: blue;}
+25% {
+border-right-color: magenta;
+border-bottom-color: red;
+border-top-color: transparent;}
+50% {
+ transform: rotate(-300deg);
+
+ border-right-color: red;
+ border-top-color: purple;
+}
+75% {
+border-bottom-color: #ffa500;
+border-right-color: red;}
+100% {
+border-right-color: magenta;
+border-top-color: #ffa500;
+border-bottom-color:#B0FC23;}
+}
+.loader3{
+
+
+  width: 130px;
+  height: 130px;
+  margin-left: 20px;
+  margin-top: 18px;
+  border-width: 7px;
+  border-style: solid;
+  border-right-color: white;
+  border-top-color:white;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  animation-name: spring3;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  box-sizing: border-box;
+  transform:rotate(0deg);
+  transition-timing-function: ease-in-out;
+
+}
+@keyframes spring3{
+  0% {
+border-right-color: green;
+border-top-color: blue;}
+25% {
+border-right-color: magenta;
+border-bottom-color: red;
+border-top-color: transparent;}
+50% {
+ transform: rotate(-300deg);
+
+ border-right-color: red;
+ border-top-color: purple;
+}
+75% {
+border-bottom-color: #ffa500;
+border-right-color: red;}
+100% {
+border-right-color: magenta;
+border-top-color: #ffa500;
+border-bottom-color:#B0FC23;}
+}
+.loader4{
+
+
+  width: 180px;
+  height: 180px;
+  margin-left: 620px;
+  margin-top: 250px;
+  border-width: 7px;
+  border-style: solid;
+  border-right-color: white;
+  border-top-color:white;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  animation-name: spring4;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  box-sizing: border-box;
+  transform:rotate(0deg);
+  transition-timing-function: ease-in-out;
+
+}
+@keyframes spring4{
+  0% {
+border-right-color: green;
+border-top-color: blue;}
+25% {
+border-right-color: magenta;
+border-bottom-color: red;
+border-top-color: transparent;}
+50% {
+ transform: rotate(-300deg);
+
+ border-right-color: red;
+ border-top-color: purple;
+}
+75% {
+border-bottom-color: #ffa500;
+border-right-color: red;}
+100% {
+border-right-color: magenta;
+border-top-color: #ffa500;
+border-bottom-color:#B0FC23;}
+}
+
+  </style>
+</head>
+
+
+<body>
+  <div class="container">
+    <div class="loader4">
+    <div class="loader3">
+    <div class="loader2">
+      <div class="loader1">
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</body>
+
+
+</html>

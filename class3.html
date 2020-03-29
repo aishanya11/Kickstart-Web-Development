@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>CSS-1</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+  <style>
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 4;
+  font-style: italic;
+  background-color: yellow;
+}
+button{
+  font-family: inherit
+}
+
+  p{
+    color:blue;
+    background-color: green;
+  }
+  #red{
+    color:red;
+    background-color: green;
+    <!-- cascading takes place here -->
+  }
+  </style>
+</head>
+
+<body>
+  <strong id="red"> lorem ipsim dolar </strong>
+  <p> lorem ipsim dolar </p>
+  <p> lorem ipsim dolar </p>
+  <button type="button" value="submit"> submit this
+  </button>
+  <!-- <iframe src="hw2.html" style="width:500px;height:500px;"> </iframe> -->
+</body>
